@@ -1,0 +1,8 @@
+n = float(input('Digite a metragem: '))
+print('Você digitou: {} metros.'.format(n))
+print('Vale: {} kilometros.'.format(n/1000))
+print('Vale: {} hectômetros.'.format(n/100))
+print('Vale: {} decâmetros.'.format(n/10))
+print('Vale: {} decímetros.'.format(n*10))
+print('Vale: {} centímetros.'.format(n*100))
+print('Vale: {} milímetros.'.format(n*1000))
